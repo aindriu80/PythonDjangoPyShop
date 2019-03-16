@@ -8,5 +8,7 @@ from . import views
 # /products/new
 
 urlpatterns = [
-    path('', views.index)
+    path('', views.index),
+    path('new', views.products_new),
 ]
+

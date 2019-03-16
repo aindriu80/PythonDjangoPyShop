@@ -5,3 +5,8 @@ from django.shortcuts import render
 
 def index(request):
     return HttpResponse('Hello World')
+
+
+def products_new(request):
+    return HttpResponse('New Products')
+
